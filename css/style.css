@@ -1,11 +1,56 @@
-/* RESET */
+/** RESET **/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* COMMON */
+/*** COMMON ***/
 body {
   font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.padding-mobile {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/****** HEADER ******/
+
+header {
+  height: 80px;
+  background-color: #0084fd;
+  color: white;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* main menu visibile solo in desktop */
+.main-menu {
+  display: none;
+}
+
+/*** PARTE RESPONSIVE ***/
+
+/* Layout Tablet */
+@media screen and (min-width: 768px) {
+}
+
+/* Layout Desktop */
+@media screen and (min-width: 992px) {
+  .burger {
+    display: none;
+  }
+  .main-menu {
+    display: block;
+  }
 }

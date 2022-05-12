@@ -104,6 +104,26 @@ section:nth-child(even) {
   margin-bottom: 0;
 }
 
+/* sezione benefits */
+.benefits {
+  text-align: center;
+}
+
+.benefits h2 {
+  margin-bottom: 2rem;
+  color: white;
+}
+.benefits-card {
+  margin-bottom: 1rem;
+
+  /* todo test */
+  border: 1px solid red;
+  background-color: coral;
+}
+.benefits-columns:nth-child(6) .benefits-card {
+  margin-bottom: 0;
+}
+
 /*** PARTE RESPONSIVE ***/
 
 /* Layout Tablet */
@@ -120,6 +140,14 @@ section:nth-child(even) {
   }
   .features-col:first-child {
     width: calc((100% / 3) * 2);
+  }
+  .benefits-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .benefits-col {
+    width: calc(50% - 1rem);
   }
 }
 
@@ -143,5 +171,8 @@ section:nth-child(even) {
   .strategic-col {
     width: 50%;
     padding: 1rem;
+  }
+  .benefits-col {
+    width: calc((100% / 3) - 1rem);
   }
 }

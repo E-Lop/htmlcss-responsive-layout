@@ -130,6 +130,16 @@ section:nth-child(even) {
   border: 1px solid red;
 }
 
+/* sezione started */
+.started {
+  text-align: center;
+  color: white;
+}
+
+.started h2 {
+  color: #fdc15f;
+}
+
 /******** PARTE RESPONSIVE ********/
 
 /* Layout Tablet */

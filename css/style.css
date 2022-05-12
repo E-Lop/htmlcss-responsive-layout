@@ -140,6 +140,17 @@ section:nth-child(even) {
   color: #fdc15f;
 }
 
+/****** FOOTER ******/
+footer {
+  text-align: center;
+  background-color: #333333;
+}
+
+footer div {
+  padding: 1rem 0;
+  color: white;
+}
+
 /******** PARTE RESPONSIVE ********/
 
 /* Layout Tablet */
@@ -172,6 +183,10 @@ section:nth-child(even) {
   .about-col {
     width: 50%;
     padding: 0 1rem;
+  }
+  /* larghezza massima contenuto ultima section e footer */
+  .bottom-box {
+    width: 500px;
   }
 }
 

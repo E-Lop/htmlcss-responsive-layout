@@ -10,7 +10,8 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
-.container {
+/* limite larghezza per desktop */
+.desktop-max-w {
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -39,13 +40,50 @@ nav {
   display: none;
 }
 
+/****** MAIN ******/
+/* padding generale della sezione */
+.features {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
+  /* todo test */
+  background-color: bisque;
+}
+
+.features-columns {
+  /* todo test */
+  background-color: aquamarine;
+}
+
+.features-card {
+  margin-bottom: 1rem;
+}
+.features-columns:nth-child(5) .features-card {
+  margin-bottom: 0;
+}
+
 /*** PARTE RESPONSIVE ***/
 
 /* Layout Tablet */
 @media screen and (min-width: 768px) {
+  .features-columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  .features-col {
+    width: calc(100% / 3);
+    padding: 0 1rem;
+  }
+  .features-col:first-child {
+    width: calc((100% / 3) * 2);
+  }
 }
 
 /* Layout Desktop */
+
+/* header */
 @media screen and (min-width: 992px) {
   .burger {
     display: none;

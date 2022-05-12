@@ -84,6 +84,26 @@ section:nth-child(even) {
   background-color: chartreuse;
 }
 
+/* sezione testimonials */
+.testimonials {
+  text-align: center;
+}
+.testimonials h2 {
+  padding: 2rem 0;
+}
+.testimonials p:last-of-type {
+  padding-bottom: 2rem;
+}
+
+.testimonials-card {
+  margin-bottom: 1rem;
+  /* todo test */
+  border: 1px solid red;
+}
+.testimonials-card:last-of-type {
+  margin-bottom: 0;
+}
+
 /*** PARTE RESPONSIVE ***/
 
 /* Layout Tablet */

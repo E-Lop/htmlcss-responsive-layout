@@ -208,16 +208,41 @@ section:nth-child(even) {
 .benefits h2 {
   margin-bottom: 2rem;
   color: white;
+  font-size: 1.5rem;
+  color: white;
 }
 .benefits-card {
   margin-bottom: 1rem;
-
-  /* todo test */
-  border: 1px solid red;
-  background-color: coral;
+  background-color: white;
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: left;
+  color: #9792e4;
 }
 .benefits-columns:nth-child(6) .benefits-card {
   margin-bottom: 0;
+}
+.number {
+  font-size: 5rem;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+.benefits-card h3 {
+  padding: 1rem 0;
+}
+.benefits-card p {
+  color: black;
+  padding: 1rem 0;
+}
+.more {
+  padding: 1rem 0;
+}
+.benefits-card a {
+  color: white;
+  background-color: #9792e4;
+  padding: 10px 35px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 /* sezione about */
@@ -270,7 +295,7 @@ footer div {
     align-items: center;
   }
   .portrait {
-    width: 20%;
+    width: 23%;
   }
   .citazione {
     width: 75%;

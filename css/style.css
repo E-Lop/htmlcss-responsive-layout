@@ -75,6 +75,7 @@ section:nth-child(even) {
 }
 
 /* sezione features */
+
 .features-col {
   margin-bottom: 1rem;
 }
@@ -100,8 +101,7 @@ section:nth-child(even) {
 .features p {
   color: #667d90;
   font-weight: bold;
-  padding-top: 2rem;
-  margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 .btn-blue {
   margin-top: 3rem;
@@ -282,6 +282,7 @@ section:nth-child(even) {
   position: absolute;
   top: 0;
   right: 0;
+  font-size: 3rem;
 }
 .linkedin {
   padding: 1rem 0;
@@ -412,14 +413,15 @@ footer a {
   .features-card {
     width: 100%;
   }
-  .features .card {
+  .features-card {
     flex-direction: row;
   }
-  .features .sub-card1 {
+  .sub-card1 {
     width: 50%;
   }
-  .features .sub-card2 {
+  .sub-card2 {
     width: 50%;
+    vertical-align: text-bottom;
   }
   .strategic-columns {
     display: flex;

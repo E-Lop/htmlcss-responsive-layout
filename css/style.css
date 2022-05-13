@@ -162,6 +162,8 @@ section:nth-child(even) {
 }
 .testimonials h2 {
   padding: 2rem 0;
+  font-size: 1.5rem;
+  color: #9792e4;
 }
 .testimonials p:last-of-type {
   padding-bottom: 2rem;
@@ -169,11 +171,33 @@ section:nth-child(even) {
 
 .testimonials-card {
   margin-bottom: 1rem;
-  /* todo test */
-  border: 1px solid red;
+  background-color: #9792e4;
+  border-radius: 15px;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .testimonials-card:last-of-type {
   margin-bottom: 0;
+}
+
+.citazione {
+  width: 100%;
+  padding: 1rem;
+}
+.portrait img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.testimonial-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 1rem;
 }
 
 /* sezione benefits */
@@ -239,6 +263,18 @@ footer div {
   }
   .features-col:first-child {
     width: calc((100% / 3) * 2);
+  }
+  .testimonials-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .portrait {
+    width: 20%;
+  }
+  .citazione {
+    width: 75%;
+    text-align: left;
   }
   .benefits-columns {
     display: flex;

@@ -246,9 +246,52 @@ section:nth-child(even) {
 }
 
 /* sezione about */
-.about-col {
-  /* todo test */
-  border: 1px solid red;
+.about-columns {
+  padding: 1rem 0;
+}
+
+.about-card {
+  padding: 1rem 0;
+}
+.about-card h2 {
+  font-size: 3rem;
+  color: #9792e4;
+  padding: 1rem 0;
+}
+.about-card p {
+  padding: 1rem 0;
+}
+.about-portrait {
+  width: 150px;
+  position: relative;
+}
+.about-portrait img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about-card blockquote {
+  color: #9792e4;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+#quotation-mark {
+  color: #9792e4;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.linkedin {
+  padding: 1rem 0;
+}
+.linkedin a {
+  background-color: #9792e4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 /* sezione started */
@@ -312,11 +355,15 @@ footer div {
   .about-columns {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
-  .about-col {
-    width: 50%;
-    padding: 0 1rem;
+  .about-left-column {
+    width: 60%;
   }
+  .about-right-column {
+    width: 30%;
+  }
+
   /* larghezza massima contenuto ultima section e footer */
   .bottom-box {
     width: 500px;

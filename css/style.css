@@ -70,11 +70,12 @@ section {
   padding-top: 2rem;
   padding-bottom: 3rem;
 }
+/* colorazione delle section pari */
 section:nth-child(even) {
   background-color: #9792e4;
 }
 
-/* sezione features */
+/* prima sezione - features */
 
 .features-col {
   margin-bottom: 1rem;
@@ -122,7 +123,7 @@ section:nth-child(even) {
   padding-bottom: 1rem;
 }
 
-/* sezione strategic */
+/* seconda sezione - strategic */
 .strategic-card {
   margin-bottom: 1rem;
 }
@@ -159,7 +160,7 @@ section:nth-child(even) {
   border-radius: 50%;
 }
 
-/* sezione testimonials */
+/* terza sezione - testimonials */
 .testimonials {
   text-align: center;
 }
@@ -204,7 +205,7 @@ section:nth-child(even) {
   padding-top: 1rem;
 }
 
-/* sezione benefits */
+/* quarta sezione - benefits */
 .benefits {
   text-align: center;
 }
@@ -250,7 +251,7 @@ section:nth-child(even) {
   text-decoration: none;
 }
 
-/* sezione about */
+/* quinta sezione - about */
 .about-columns {
   padding: 1rem 0;
 }
@@ -300,7 +301,7 @@ section:nth-child(even) {
   text-decoration: none;
 }
 
-/* sezione started */
+/* sesta sezione - started */
 .started {
   text-align: center;
   color: white;
@@ -443,5 +444,3 @@ footer a {
     width: calc((100% / 3) - 1rem);
   }
 }
-
-/* ? colonne sezione about più distanziate in desktop? */

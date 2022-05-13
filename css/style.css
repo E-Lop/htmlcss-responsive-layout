@@ -133,6 +133,9 @@ section:nth-child(even) {
 .strategic-col:first-child {
   color: White;
 }
+#plan1 {
+  padding-top: 6rem;
+}
 .bg-white-app {
   text-align: center;
   background-color: white;
@@ -167,6 +170,7 @@ section:nth-child(even) {
 }
 .testimonials p:last-of-type {
   padding-bottom: 2rem;
+  font-weight: bold;
 }
 
 .testimonials-card {
@@ -229,6 +233,7 @@ section:nth-child(even) {
 }
 .benefits-card h3 {
   padding: 1rem 0;
+  font-size: 2rem;
 }
 .benefits-card p {
   color: black;
@@ -303,14 +308,15 @@ section:nth-child(even) {
 .started h3 {
   padding: 1rem 0;
   font-weight: bold;
+  font-size: 3rem;
 }
 .started h2 {
   color: #fdc15f;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 .started p {
-  padding: 1rem 0;
+  padding: 1rem 4rem;
 }
 .btn-started {
   padding: 2rem 0;
@@ -336,7 +342,7 @@ footer {
 }
 
 footer div {
-  padding: 1rem 0;
+  padding: 1rem 4rem;
   color: white;
 }
 footer a {
@@ -394,7 +400,7 @@ footer a {
 
   /* larghezza massima contenuto ultima section e footer */
   .bottom-box {
-    width: 500px;
+    width: 600px;
   }
 }
 

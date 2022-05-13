@@ -299,9 +299,33 @@ section:nth-child(even) {
   text-align: center;
   color: white;
 }
-
+.started h3 {
+  padding: 1rem 0;
+  font-weight: bold;
+}
 .started h2 {
   color: #fdc15f;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.started p {
+  padding: 1rem 0;
+}
+.btn-started {
+  padding: 2rem 0;
+}
+.btn-started a {
+  text-decoration: none;
+  background-color: white;
+  color: #9792e4;
+  padding: 20px 50px;
+  border-radius: 30px;
+}
+.credits {
+  padding-top: 1rem;
+}
+.credits a {
+  color: white;
 }
 
 /****** FOOTER ******/

@@ -75,8 +75,11 @@ section:nth-child(even) {
 }
 
 /* sezione features */
-
+.features-col {
+  margin-bottom: 1rem;
+}
 .features-card {
+  height: 100%;
   margin-bottom: 1rem;
   background-color: #b5ddff;
   border-radius: 15px;
@@ -127,11 +130,30 @@ section:nth-child(even) {
   margin-bottom: 0;
 }
 
-.strategic-col {
-  /* todo test */
-  border: 1px solid red;
-
-  background-color: chartreuse;
+.strategic-col:first-child {
+  color: White;
+}
+.bg-white-app {
+  text-align: center;
+  background-color: white;
+  border-radius: 4rem;
+  padding: 1rem;
+}
+.strategic-col:first-child h2 {
+  font-size: 1.5rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+.bg-white-app h3 {
+  padding: 1rem 0;
+}
+.bg-white-app i {
+  background-color: #9792e4;
+  margin-top: 1rem;
+  font-size: 2rem;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }
 
 /* sezione testimonials */
@@ -268,6 +290,7 @@ footer div {
     display: flex;
     flex-wrap: wrap;
     padding: 0 3rem;
+    align-items: flex-end;
   }
   .strategic-col {
     width: 50%;

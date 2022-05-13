@@ -39,6 +39,25 @@ nav {
 .main-menu {
   display: none;
 }
+.main-menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.main-menu li {
+  padding: 0 1rem;
+}
+.main-menu a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.3rem;
+}
+.main-menu li:last-of-type a {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
 
 /****** MAIN ******/
 /* padding generale delle sezioni */

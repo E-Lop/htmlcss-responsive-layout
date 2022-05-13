@@ -338,6 +338,9 @@ footer div {
   padding: 1rem 0;
   color: white;
 }
+footer a {
+  color: #9792e4;
+}
 
 /******** PARTE RESPONSIVE ********/
 
